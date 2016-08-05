@@ -1,0 +1,44 @@
+$TTL    120
+@       IN      SOA     ns1.mto.ifsp.edu.br.    admin.mto.ifsp.edu.br.  (
+                 2707201603                     ; Serial
+                        120                     ; Refresh
+                        120                     ; Retry
+                        120                     ; Expire
+                        120 )                   ; Negative Cache TTL
+
+; Name server
+mto.ifsp.edu.br.        IN              NS      ns1.mto.ifsp.edu.br.
+mto.ifsp.edu.br.        IN              NS      ns2.mto.ifsp.edu.br.
+
+; A records for name servers
+ns1                     IN              A       200.133.218.172
+ns2                     IN              A       200.133.218.173
+
+; Other A records
+@                       IN              A       200.133.214.229
+www                     IN              A       200.133.214.229
+cra                     IN              A       200.133.214.229
+cgp                     IN              A       200.133.214.229
+cap                     IN              A       200.133.214.229
+
+suporte                 IN              A       200.133.218.172
+requisicaocra           IN              A       200.133.218.172
+requisicaocgp           IN              A       200.133.218.172
+manutencao              IN              A       200.133.218.172
+projetos                IN              A       200.133.218.172
+redmine                 IN              A       200.133.218.172
+chat                    IN              A       200.133.218.172
+piwik                   IN              A       200.133.218.172
+ss                      IN              A       200.133.218.172
+*.ss                    IN              A       200.133.218.172
+ava                     IN              A       200.133.218.172
+nuvem                   IN              A       200.133.218.172
+formularios             IN              A       200.133.218.172
+wiki                    IN              A       200.133.218.172
+
+noc                     IN              A       200.133.218.173
+
+aluno                   IN              A       200.133.218.174
+
+wd                      IN              A       200.133.218.171
+

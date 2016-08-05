@@ -1,0 +1,18 @@
+$TTL 120
+$ORIGIN 218.133.200.in-addr.arpa.
+
+@       IN      SOA     ns1.mto.ifsp.edu.br. admin.mto.ifsp.edu.br. (
+        0308201606      ; Serial
+        120             ; Refresh
+        120             ; Retry
+        120             ; Expire
+        120 )           ; Negative Cache TTL
+
+; Name server
+@       NS      ns1.mto.ifsp.edu.br.
+@       NS      ns2.mto.ifsp.edu.br.
+
+; PTR records
+172     PTR     suporte.mto.ifsp.edu.br.
+173     PTR     noc.mto.ifsp.edu.br.
+
